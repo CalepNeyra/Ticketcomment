@@ -1,0 +1,155 @@
+{
+  "tickets": [
+    {
+      "id": "582ccad0-2b90-4191-a379-0a2734658f07",
+      "title": "Problema 1",
+      "description": "Ocurrió un error en el sistema",
+      "status": "nuevo",
+      "priority": "medium",
+      "assignedUser": null
+    },
+    {
+      "id": "7be0610e-5ce9-4ed5-971e-032e0cc0dcd8",
+      "title": "Fallo en el servidor de pruebas",
+      "description": "Se cayó el servicio de autenticación a las 10:00 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null
+    },
+    {
+      "id": "d806389b-3d82-476c-adf5-79425a0e20e7",
+      "title": "Fallo en el servidor de producción",
+      "description": "Se perdió conexión con el nodo principal a las 11:30 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": "correo_destino@ejemplo.com"
+    },
+    {
+      "id": "1e619213-8dc2-4475-aee3-59d5f5801c34",
+      "title": "Fallo en el servidor de producción",
+      "description": "Se perdió conexión con el nodo principal a las 11:30 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": "calep.neyra@tecsup.edu.pe"
+    },
+    {
+      "id": "2ad70e5a-20f1-44fd-bdf8-925ed544a1a2",
+      "title": "Fallo en el servidor de pruebas",
+      "description": "Se cayó el servicio de autenticación a las 10:00 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": null
+    },
+    {
+      "id": "7b44806b-162b-44c5-a8e4-4fd226667d90",
+      "title": "Fallo en el servidor de pruebas",
+      "description": "Se cayó el servicio de autenticación a las 10:00 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": null
+    },
+    {
+      "id": "d1fd1063-5460-48ab-811c-d4eda9202d03",
+      "title": "Fallo en el servidor de pruebas",
+      "description": "Se cayó el servicio de autenticación a las 10:00 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": null
+    },
+    {
+      "id": "ce953adf-5175-4b2e-bf83-fe9280fbb137",
+      "title": "Fallo en el servidor de pruebas",
+      "description": "Se cayó el servicio de autenticación a las 10:00 AM",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": null
+    },
+    {
+      "id": "8207fc2c-3aeb-4e89-9b5c-3a07473b80f7",
+      "title": "Solicitud de revisión de API RESTful",
+      "description": "Se ha completado el desarrollo del módulo de tickets y notificaciones.",
+      "status": "nuevo",
+      "priority": "high",
+      "assignedUser": null,
+      "email": "earevalo@tecsup.edu.pe"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "14d15d85-45fd-46ac-ab1c-022f166d2308",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "0a94aca8-b3b7-4cf6-abdd-674b0ac30095"
+    },
+    {
+      "id": "6b216660-4dd0-430c-9dc9-ef80a8b5f12d",
+      "type": "email",
+      "message": "El ticket 0a94aca8-b3b7-4cf6-abdd-674b0ac30095 fue asignado a Juan Perez",
+      "status": "pending",
+      "ticketId": "0a94aca8-b3b7-4cf6-abdd-674b0ac30095"
+    },
+    {
+      "id": "cc4abb7e-a4dc-418c-9d9a-ec3096a41f82",
+      "type": "email",
+      "message": "Nuevo ticket creado: Problema 1",
+      "status": "pending",
+      "ticketId": "582ccad0-2b90-4191-a379-0a2734658f07"
+    },
+    {
+      "id": "b956e455-1aa5-4528-afc6-4f5930e22260",
+      "type": "push",
+      "message": "El ticket 0a94aca8-b3b7-4cf6-abdd-674b0ac30095 cambió a en proceso",
+      "status": "pending",
+      "ticketId": "0a94aca8-b3b7-4cf6-abdd-674b0ac30095"
+    },
+    {
+      "id": "9acd45ef-4486-4009-a88f-7ea448936c13",
+      "type": "email",
+      "message": "Nuevo ticket creado: Fallo en el servidor de pruebas",
+      "status": "pending",
+      "ticketId": "7be0610e-5ce9-4ed5-971e-032e0cc0dcd8"
+    },
+    {
+      "id": "f0b97cad-fd9e-404c-8cc9-56c6e1692d77",
+      "type": "email",
+      "message": "Nuevo ticket creado: Fallo en el servidor de producción",
+      "status": "pending",
+      "ticketId": "d806389b-3d82-476c-adf5-79425a0e20e7"
+    },
+    {
+      "id": "adf27ca3-32c1-49f6-88b4-4345c2f6f026",
+      "type": "email",
+      "message": "Nuevo ticket creado: Fallo en el servidor de producción",
+      "status": "pending",
+      "ticketId": "1e619213-8dc2-4475-aee3-59d5f5801c34"
+    },
+    {
+      "id": "6d3fe87f-57d6-4105-b087-ed7d93005023",
+      "type": "email",
+      "message": "Nuevo ticket creado: Fallo en el servidor de pruebas",
+      "status": "pending",
+      "ticketId": "2ad70e5a-20f1-44fd-bdf8-925ed544a1a2"
+    },
+    {
+      "id": "33e8abd8-cbe6-48ae-9dc6-48b22379a867",
+      "type": "email",
+      "message": "Nuevo ticket creado: Fallo en el servidor de pruebas",
+      "status": "pending",
+      "ticketId": "ce953adf-5175-4b2e-bf83-fe9280fbb137"
+    },
+    {
+      "id": "de98d74c-1b2f-44df-a25c-fa7aff380f76",
+      "type": "email",
+      "message": "Nuevo ticket creado: Solicitud de revisión de API RESTful",
+      "status": "pending",
+      "ticketId": "8207fc2c-3aeb-4e89-9b5c-3a07473b80f7"
+    }
+  ]
+}
